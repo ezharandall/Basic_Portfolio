@@ -56,7 +56,7 @@ aside {
   color: #777777;
   width: 1322px;
   height: 88px;
-  float: left;
+  float: right;
 
 }
 
@@ -75,39 +75,46 @@ aside {
   color: #4aaaa5;
 }
 
+.contactBox {
+  float: left;
+  width: 544px;
+  height: 507px;
+
+}
+
 
 h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-/*  color: #eee;*/
-  text-align: center;
- /* background: #4aaaa5;*/
- border: 20px;
- border-color: black;
+
 
 }
 
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #4aaaa5;
+}
+
+.panel-heading {
   font-size: 24px;
   color: #4aaaa5;
+  background-color: white;
+
 }
 
 a {
   color: #777777;
-  text-decoration: none;
+  
+  padding: 3px 8px 3px 3px;
+  float: left;
 }
 
 
 
-.container {
+/*.container {
   width: 1024px;
   margin: 150 auto;
   border: 
-}
+}*/
 
 #main-bio,
 #contact-info,
@@ -121,6 +128,13 @@ a {
 
 #contact-info {
   width: 30%;
+}
+
+#message {
+  width: 492px;
+  height: 170px;
+  left: 364px;
+  right: 856px;
 }
 
 #bio-image {
